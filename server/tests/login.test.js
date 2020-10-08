@@ -5,6 +5,8 @@ describe('testing user validation functionality', () => {
         jest.resetModules() // Clears any cache in the tests.
     });
 
+    // Test invalid input
+
     test('rejection of invalid user email', async () => {
         // Arrange
         const testEmail = 'invalidEmail';
