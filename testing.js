@@ -1,3 +1,3 @@
 function hi(){
-  console.log('hello');
+  console.log('hello, Peter was here');
 }
